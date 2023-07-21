@@ -1,0 +1,116 @@
+#styletitle{
+
+   background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: -webkit-linear-gradient();
+    border-style: dashed;
+    border-width: 2cap;
+    text-align: center;
+    border-radius: 50%;
+}
+
+h2{
+
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+}
+
+#matrixbutton{
+    background-color: greenyellow;
+    background-image: -webkit-linear-gradient();
+    border-style: groove;
+    border-color: whitesmoke;
+    border-width: 2cap;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+.red{
+    background-color: red;
+    width: 300px;
+}
+
+.blue{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: white;
+    width: 300px;
+}
+
+
+.bluelaser{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: white;
+}
+
+
+.yaar1{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+
+/* refers to all the divs inside of class yaar1 */
+.yaar1 div{
+background-color: green;
+border: 3px solid black;
+width: 300px;
+height: 300px;
+justify-content: center;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+font-style: oblique;
+color: beige;
+margin: 20px;
+
+}
+
+.yaar2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.yaar2 div{
+background-color: rgb(129, 129, 129);
+border: 5px solid whitesmoke;
+width: auto;
+padding: 10px;
+height: 50px;
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+font-style: oblique;
+text-align: center;
+color: rgb(0, 255, 255);
+margin: 30px;
+
+
+}
+
+.buttonyaar{
+    background-color: greenyellow;
+    align-content: center;
+    
+    }
+
+
+
+body{
+background-color: aqua;
+background-image: url(https://scontent.fkul10-1.fna.fbcdn.net/v/t39.30808-6/357175578_796476695442362_8562945518835842134_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=aY9Xd0dy7koAX-HF_Ez&_nc_ht=scontent.fkul10-1.fna&oh=00_AfABcyawRz9b1ztedxKVePzOziMrn0y8g1OChQa2uIydhw&oe=64BDF93E);
+}
+
+.bonn body{
+    background-color: aqua;
+}
